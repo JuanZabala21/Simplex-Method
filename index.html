@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Método</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type = "text/javascript" src = "funciones.js"></script>
+</head>
+<body>
+<section id="main-content">
+        <article>
+            <header>
+                <h1>Método Simplex</h1>
+            </header>
+        
+            <div class="content" id="content">
+                <form action="" method="post">
+                    <label id="h1">Problema Inicial </label><br>
+
+                    <p><b>Objetivo</b><br>
+                    Maximizar: <input id="idoptmaximizar" type="radio" value="V1" name="objetivo"><br>
+                    Minimizar: <input id="idoptminimizar" type="radio" checked name="objetivo" value="V2"></p>
+                    
+                    <label> Variables: <input id="nVariables" type="text" name="txtnovariables" size="2" value="2"></label> 
+                    <label> Restricciones: <input id="nRestricciones" type="text" name="txtnorestricciones" size="2" value="3"></label><br>   
+                    <br>   
+                        <div><button type="button" value="Preparar" onclick="preparar()" />
+                            Preparar</button>
+                        </div>   
+               </form> 
+                <div id="lectura"> </div>
+                <div id="datos"> </div>
+                <div id="jsolucion"> </div>
+            </div>
+      </article>
+    </section>
+</body>
+</html>
