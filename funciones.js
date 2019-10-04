@@ -1,4 +1,4 @@
-    
+    //Juan Zabala 
     var a_problema = new Array();
     var tableauA = new Array ();
     var tableau2 = new Array();
